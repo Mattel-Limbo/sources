@@ -19,7 +19,7 @@ def postToWebhook(body):
             },
             "title": body.title,
             "url": "https://google.com/",
-            "description": f"`{body.description}`",
+            "description": f"```{body.description}```",
             "color": 15258703,
             "fields": [
                 {
