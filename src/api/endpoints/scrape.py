@@ -7,10 +7,11 @@ router = APIRouter()
 class ElementAttributes(BaseModel):
     tag: str
     attributes: dict
-
+    
 class AttributeResponse(BaseModel):
     elements: list[ElementAttributes]
 
+# Scrape the attributes and values from the provided URL and return them as a list of ElementAttributes.
 @router.get("/", response_model=AttributeResponse, tags=["scrape"])
 async def scrape_attribute_endpoints(url: str = Query(..., description="The URL to scrape for attributes and values")):
     try:
