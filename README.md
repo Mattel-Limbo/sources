@@ -1,6 +1,6 @@
 # Mattel Limbo AI Prompting
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://github.com/ferdinalaxewall/mattel-limbo-bot/blob/master/img/banner2-matel-limbo.jpg" alt="Nest Logo" /></a>
+  <a href="https://fastapi.tiangolo.com/" target="blank"><img src="https://github.com/ferdinalaxewall/mattel-limbo-bot/blob/master/img/banner2-matel-limbo.jpg" alt="Mattel Limbo Logo" /></a>
 </p>
 
 **Mattel Limbo** is a Casual AI Prompter designed to generate casual results based on your needs. Our innovative solution leverages cutting-edge technology to provide seamless and intuitive user experiences.
@@ -40,10 +40,10 @@ $ fastapi dev app.py
 
 ## Discord Webhook Payload
 ```json
-    {
-        "username": "",
-        "embeds": [
-            {
+{
+    "username": "",
+    "embeds": [
+        {
             "author": {
                 "name": "",
                 "url": "",
@@ -55,22 +55,18 @@ $ fastapi dev app.py
             "color": 15258703,
             "fields": [
                 {
-                "name": "",
-                "value": "",
+                    "name": "",
+                    "value": "",
                 },
                 {
-                "name": "",
-                "value": ""
+                    "name": "",
+                    "value": ""
                 }
             ],
-            }
-        ]
-    }
+        }
+    ]
+}
 ```
-
-## Contributing
-
-We welcome contributions to Mattel Limbo! Please read our [Contributing Guidelines](CONTRIBUTING.md) to get started.
 
 ## License
 
@@ -78,9 +74,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Mattel Limbo](https://github.com/mattel-limbo)
+- See all - [Contributors](https://github.com/mattel-limbo/contributors)
 
 ## Support Us
 
