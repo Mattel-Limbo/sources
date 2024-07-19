@@ -5,7 +5,7 @@ import requests
 load_dotenv() 
 
 # Send Post to Discord Webhook
-def postToWebhook(body):
+def post_to_webhook(body):
     url = os.getenv("DISCORD_WEBHOOK_URL")
     headers = {"Content-Type": "application/json"}  
     data = {
