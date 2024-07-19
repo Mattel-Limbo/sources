@@ -13,8 +13,8 @@ class Body(BaseModel):
     username: str | None = None
     avatar: str | None = None
 
-@app.post("/mattel-webhook")
-async def webhookSender(body: Body): 
+@app.post("/webhook/discord")
+async def webhookSender(body: Body)
     return postToWebhook(body)
 
 

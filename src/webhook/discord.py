@@ -33,7 +33,7 @@ def postToWebhook(body):
             ],
             }
         ]
-        }
+    }
 
     result = requests.post(url, json=data, headers=headers)
 
